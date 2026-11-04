@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi distinctio eius optio. Deleniti dolorem, fugiat, id ipsum iure nemo nihil nostrum perferendis perspiciatis, ratione repellat repudiandae rerum sapiente tempora vel.<br />
+<script>document.write("test")</script>
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi distinctio eius optio. Deleniti dolorem, fugiat, id ipsum iure nemo nihil nostrum perferendis perspiciatis, ratione repellat repudiandae rerum sapiente tempora vel.<br />
+
+<input type="text" id="input">
+<input type="color" name="" id="color">
+<button onclick="alert(document.getElementById('input').value)">klik</button>
+<button onclick="document.getElementById('div').innerHTML+=Math.round(Math.random()*100)">random</button>
+<div id="div" onmouseenter="document.getElementById('div').style.backgroundColor=document.getElementById('color').value"></div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

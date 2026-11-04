@@ -1,0 +1,5 @@
+// alert("witaj")
+// let odp = prompt("swiecie")
+// let odp2 = confirm("!")
+// console.log(odp2)
+// console.log(odp)
